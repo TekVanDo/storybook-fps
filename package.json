@@ -1,7 +1,7 @@
 {
-  "name": "storybook-addon-kit",
+  "name": "storybook-fps-meter",
   "version": "0.0.0",
-  "description": "everything you need to build a Storybook addon",
+  "description": "fps-meter fro storybook",
   "keywords": [
     "storybook-addons",
     "style",
@@ -9,7 +9,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/storybookjs/storybook-addon-kit"
+    "url": "https://github.com/TekVanDo/storybook-fps"
   },
   "author": "winkerVSbecks",
   "license": "MIT",
@@ -88,5 +88,8 @@
       "angular"
     ],
     "icon": "https://user-images.githubusercontent.com/321738/63501763-88dbf600-c4cc-11e9-96cd-94adadc2fd72.png"
+  },
+  "dependencies": {
+    "frame-rate-meter": "^0.3.10"
   }
 }

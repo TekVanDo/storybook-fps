@@ -5662,6 +5662,11 @@ fragment-cache@^0.2.1:
   dependencies:
     map-cache "^0.2.2"
 
+frame-rate-meter@^0.3.10:
+  version "0.3.10"
+  resolved "https://registry.yarnpkg.com/frame-rate-meter/-/frame-rate-meter-0.3.10.tgz#b516a1f1465bc32b4157bd371d44a4c9b863dbec"
+  integrity sha512-rawBHF/FlXRHRxasMaGciMeGjnpLGy/hRK2LNhc/++2Wv+gJ/a2SlPLZxX5QGfyeFHxPg7U1rJXiZs2xdGOWoQ==
+
 fresh@0.5.2:
   version "0.5.2"
   resolved "https://registry.yarnpkg.com/fresh/-/fresh-0.5.2.tgz#3d8cadd90d976569fa835ab1f8e4b23a105605a7"
