@@ -1,17 +1,17 @@
 {
   "name": "storybook-fps-meter",
-  "version": "0.0.0",
-  "description": "fps-meter fro storybook",
+  "version": "0.2.1",
+  "description": "fps-meter for storybook",
   "keywords": [
     "storybook-addons",
-    "style",
+    "debug",
     "test"
   ],
   "repository": {
     "type": "git",
     "url": "https://github.com/TekVanDo/storybook-fps"
   },
-  "author": "winkerVSbecks",
+  "author": "Alexander Strochkov <tek@inbox.ru>",
   "license": "MIT",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -81,7 +81,7 @@
     "access": "public"
   },
   "storybook": {
-    "displayName": "Addon Kit",
+    "displayName": "FPS-meter",
     "supportedFrameworks": [
       "react",
       "vue",
@@ -90,6 +90,6 @@
     "icon": "https://user-images.githubusercontent.com/321738/63501763-88dbf600-c4cc-11e9-96cd-94adadc2fd72.png"
   },
   "dependencies": {
-    "frame-rate-meter": "^0.3.10"
+    "frame-rate-meter": "0.3.12"
   }
 }

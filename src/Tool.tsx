@@ -4,28 +4,16 @@ import { Icons, IconButton } from "@storybook/components";
 import { TOOL_ID } from "./constants";
 
 export const Tool = () => {
-  const [{ myAddon }, updateGlobals] = useGlobals();
+  const [{ fpsMeterAddon }, updateGlobals] = useGlobals();
 
-  const toggleMyTool = useCallback(
-    () =>
+  const toggleFpsMeter = useCallback(() =>
       updateGlobals({
-        myAddon: myAddon ? undefined : true,
-      }),
-    [myAddon]
-  );
+        fpsMeterAddon: fpsMeterAddon ? undefined : true,
+      }), [fpsMeterAddon]);
 
   return (
-    <IconButton
-      key={TOOL_ID}
-      active={myAddon}
-      title="Enable my addon"
-      onClick={toggleMyTool}
-    >
-      {/*
-        Checkout https://next--storybookjs.netlify.app/official-storybook/?path=/story/basics-icon--labels
-        for the full list of icons
-      */}
-      <Icons icon="lightning" />
+    <IconButton key={TOOL_ID} active={fpsMeterAddon} title="Enable fps-meter" onClick={toggleFpsMeter}>
+      <Icons icon="cpu"/>
     </IconButton>
   );
 };
