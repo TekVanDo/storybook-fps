@@ -1,3 +1,15 @@
+# v0.2.14 (Tue Jun 21 2022)
+
+#### ⚠️ Pushed to `main`
+
+- fix ([@TekVanDo](https://github.com/TekVanDo))
+
+#### Authors: 1
+
+- Alexander Strochkov ([@TekVanDo](https://github.com/TekVanDo))
+
+---
+
 # v0.2.13 (Tue Jun 21 2022)
 
 #### ⚠️ Pushed to `main`
