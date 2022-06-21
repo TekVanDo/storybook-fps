@@ -1,9 +1,9 @@
 {
   "name": "storybook-fps-meter",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "description": "fps-meter for storybook",
   "keywords": [
-    "storybook-addons",
+    "fps-meter", "storybook-addons",
     "debug",
     "test"
   ],
@@ -23,6 +23,7 @@
     "*.d.ts"
   ],
   "scripts": {
+    "postinstall": "node scripts/welcome.js",
     "clean": "rimraf ./dist",
     "buildBabel": "concurrently \"yarn buildBabel:cjs\" \"yarn buildBabel:esm\"",
     "buildBabel:cjs": "babel ./src -d ./dist/cjs --extensions \".js,.jsx,.ts,.tsx\"",
@@ -45,8 +46,8 @@
     "@babel/preset-env": "^7.12.1",
     "@babel/preset-react": "^7.12.5",
     "@babel/preset-typescript": "^7.13.0",
-    "@storybook/addon-essentials": "^6.4.0",
-    "@storybook/react": "^6.4.0",
+    "@storybook/addon-essentials": "^6.5.8",
+    "@storybook/react": "^6.5.8",
     "auto": "^10.3.0",
     "babel-loader": "^8.1.0",
     "boxen": "^5.0.1",
@@ -61,13 +62,13 @@
     "zx": "^1.14.1"
   },
   "peerDependencies": {
-    "@storybook/addons": "^6.4.0",
-    "@storybook/api": "^6.4.0",
-    "@storybook/components": "^6.4.0",
-    "@storybook/core-events": "^6.4.0",
-    "@storybook/theming": "^6.4.0",
+    "@storybook/addons": "^6.5.8",
+    "@storybook/api": "^6.5.8",
+    "@storybook/components": "^6.5.8",
+    "@storybook/core-events": "^6.5.8",
+    "@storybook/theming": "^6.5.8",
     "react": "^16.8.0 || ^17.0.0",
-    "react-dom": "^16.8.0 || ^17.0.0"
+    "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0"
   },
   "peerDependenciesMeta": {
     "react": {
