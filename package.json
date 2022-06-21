@@ -1,9 +1,10 @@
 {
   "name": "storybook-fps-meter",
-  "version": "0.2.9",
+  "version": "0.2.10",
   "description": "fps-meter for storybook",
   "keywords": [
-    "fps-meter", "storybook-addons",
+    "fps-meter",
+    "storybook-addons",
     "debug",
     "test"
   ],
