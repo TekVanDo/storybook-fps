@@ -1,6 +1,6 @@
 {
   "name": "storybook-fps-meter",
-  "version": "0.2.15",
+  "version": "0.2.20",
   "description": "fps-meter for storybook",
   "keywords": [
     "fps-meter",
@@ -91,6 +91,6 @@
     "icon": "https://user-images.githubusercontent.com/321738/63501763-88dbf600-c4cc-11e9-96cd-94adadc2fd72.png"
   },
   "dependencies": {
-    "frame-rate-meter": "^0.3.15"
+    "frame-rate-meter": "^0.3.19"
   }
 }
