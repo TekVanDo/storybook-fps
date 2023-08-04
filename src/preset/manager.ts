@@ -1,5 +1,4 @@
 import { addons, types } from "@storybook/addons";
-
 import { ADDON_ID, TOOL_ID } from "../constants";
 import { Tool } from "../Tool";
 

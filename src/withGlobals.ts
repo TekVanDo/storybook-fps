@@ -1,4 +1,4 @@
-import { useEffect, useGlobals } from "@storybook/addons";
+import { useEffect, useGlobals } from "@storybook/preview-api";
 import { FpsMeter } from 'frame-rate-meter';
 import { StoryContext, StoryFn as StoryFunction } from '@storybook/react';
 let fps: FpsMeter = null;

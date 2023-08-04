@@ -1,7 +1,7 @@
 import React, { useCallback } from "react";
 import { Icons, IconButton } from "@storybook/components";
 import { TOOL_ID } from "./constants";
-import { useGlobals } from "@storybook/addons";
+import { useGlobals } from "@storybook/manager-api";
 
 export const Tool = () => {
   const [{ fpsMeterAddon }, updateGlobals] = useGlobals();
