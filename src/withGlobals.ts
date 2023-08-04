@@ -1,6 +1,6 @@
-import { StoryFn as StoryFunction, StoryContext } from "@storybook/addons";
 import { useEffect, useGlobals } from "@storybook/addons";
 import { FpsMeter } from 'frame-rate-meter';
+import { StoryContext, StoryFn as StoryFunction } from '@storybook/react';
 let fps: FpsMeter = null;
 export const withGlobals = (StoryFn: StoryFunction, context: StoryContext) => {
   const [{ fpsMeterAddon }] = useGlobals();
